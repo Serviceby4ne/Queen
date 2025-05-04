@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connect with Queen</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #ffe8f1, #ffcad4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      max-width: 300px;
+    }
+    .card h2 {
+      margin-bottom: 0.5rem;
+    }
+    .ghost-emoji {
+      font-size: 2rem;
+    }
+    .cta-button {
+      background: #ff69b4;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.2rem;
+      border-radius: 8px;
+      font-size: 1rem;
+      margin-top: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background: #ff4fa3;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="ghost-emoji">👻</div>
+    <h2>Hey, I’m Queen</h2>
+    <p>Wanna connect with me on the ghost app?</p>
+    <a class="cta-button" href="https://www.snapchat.com/add/zulkiflilenjo" target="_blank">
+      Add Me Now
+    </a>
+  </div>
+</body>
+</html>
